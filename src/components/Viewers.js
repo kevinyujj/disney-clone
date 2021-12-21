@@ -43,10 +43,6 @@ const Element = styled.div`
         height: 100%;
         object-fit:fill;
         cursor: pointer;
-
-        /* &:hover{
-            object-fit: cover;
-        } */
     }
 
     &:hover{

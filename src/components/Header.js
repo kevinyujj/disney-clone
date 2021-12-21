@@ -1,10 +1,11 @@
 import React from 'react'
 import styled from 'styled-components'
-
+import {Link} from 'react-router-dom'
 function Header() {
     return (
         <Nav>
-            <Logo src='/images/logo.svg' />
+            <Link to='/'><Logo src='/images/logo.svg' /></Link>
+
             <NavMenu>
                 <a>
                     <img src='/images/home-icon.svg' />
@@ -42,6 +43,7 @@ const Nav = styled.nav`
     height:70px;
     background-color: #090b13;
     display: flex;
+    justify-content: space-around;
     align-items: center;
     padding: 0 36px;
     overflow-x: hidden;
@@ -49,6 +51,7 @@ const Nav = styled.nav`
 
 const Logo = styled.img`
     width: 80px;
+    cursor: pointer;
 `
 
 const NavMenu = styled.div`
