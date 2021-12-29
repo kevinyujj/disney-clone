@@ -24,9 +24,6 @@ function ImgSlider() {
             <Wrap>
                 <img src="/images/slider-badag.jpg" />
             </Wrap>
-            {/* <Wrap>
-                <img src="https://lumiere-a.akamaihd.net/v1/images/hb_disneyplus_hawkeye_22185_407c8e56.jpeg?region=0,0,2048,878&width=1536" />
-            </Wrap> */}
         </Carousel>
     )
 }

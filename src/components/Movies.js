@@ -1,13 +1,16 @@
 import React from 'react'
 import styled from 'styled-components'
+import {Link} from 'react-router-dom'
 function Movies() {
     return (
         <Container>
             <h4>Recommended for You</h4>
             <Content>
+                <Link to='/detail'>
                 <Element>
                     <img src="https://lumiere-a.akamaihd.net/v1/images/p_movieposters_christmas_005a44fa.jpeg?region=0,0,540,810&width=320" alt="" />
                 </Element>
+                </Link>
                 <Element>
                     <img src="https://lumiere-a.akamaihd.net/v1/images/p_movieposters_mrpopperspenguins_22277_84f9efdd.jpeg?region=0,0,540,810&width=320" alt="" />
                 </Element>
